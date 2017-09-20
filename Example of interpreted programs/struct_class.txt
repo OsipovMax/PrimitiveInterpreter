@@ -1,0 +1,41 @@
+struct ABC {
+char y;
+int g,h;
+}
+struct PPP {
+int q;
+}
+class EFG {
+char m;
+int n;
+int  setD(char p,int v)
+{
+m=p;
+n=v;
+}
+int setP(int ghj)
+{
+n=ghj;
+}
+}
+
+EFG j;
+ABC f;
+
+char rr;
+int sd (char bh){
+rr = bh;
+}
+
+int main(){
+
+PPP z;
+z.q=99;
+sd('e');
+print_char(rr);
+j.setD('l',107);
+print_char(j.m);
+print(j.n);
+print(z.q);
+return 0;
+}

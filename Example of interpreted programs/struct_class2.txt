@@ -1,0 +1,51 @@
+struct room {
+char owner;
+int g;
+}
+
+struct car {
+int no;
+char color;
+}
+
+class month {
+char mon;
+int day;
+char message()
+{
+print("Lab_work");
+return 'i';
+}
+int  setV(char m,int n)
+{
+mon=m;
+day=n;
+return 1;
+}
+
+}
+
+month obj;
+room r;
+car c;
+
+char rr;
+int sd (char bh){
+rr = bh;
+}
+
+int main()
+{
+sd('e');
+print_char(rr);
+obj.setV('f',11);
+print_char(obj.mon);
+print(obj.day);
+r.g=119;
+c.color='r';
+print(r.g);
+print_char(c.color);
+rr=obj.message();
+print_char(rr);
+return 0;
+}
